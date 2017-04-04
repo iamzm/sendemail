@@ -3,6 +3,7 @@
 # Just pass params
 
 Call the funcations name by 
+
 public static bool SendEmailViaGmail(string emailFrom, string password, string emailTo, string subject, string body)
         {
             try
@@ -36,6 +37,7 @@ public static bool SendEmailViaGmail(string emailFrom, string password, string e
                 return false;
             }
         }
+        
         and Simimlary for Yahoo 
         SendEmailViaYahoo (.......)
         
