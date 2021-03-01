@@ -1,14 +1,6 @@
-# sendemail
-# Sending via Gmail, Yahoo, Outlook
-# Just pass params
-# Call the funcations name by 
-
-For sending email via Gmail
-// Code
-
 
 public static bool SendEmailViaGmail(string emailFrom, string password, string emailTo, string subject, string body)
-        {
+{
             try
             {
                 string smtpAddress = "ssmtp.gmail.com";
@@ -36,13 +28,5 @@ public static bool SendEmailViaGmail(string emailFrom, string password, string e
             {
                 return false;
             }
-        }
-        
-        and Simimlary for Yahoo 
-        SendEmailViaYahoo (.......)
-        
-        and also for Outlook /Hotmail
-        
-        SendEmailViaOutlook(string emailFrom, string password, string emailTo, string subject, string body)
-        
+ }
         
