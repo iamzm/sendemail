@@ -4,7 +4,7 @@
 # Call the funcations name by 
 
 For sending email via Gmail
-
+// Code
 public static bool SendEmailViaGmail(string emailFrom, string password, string emailTo, string subject, string body)
         {
             try
