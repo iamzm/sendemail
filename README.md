@@ -1,8 +1,9 @@
 # sendemail
 # Sending via Gmail, Yahoo, Outlook
 # Just pass params
-
 # Call the funcations name by 
+
+For sending email via Gmail
 
 public static bool SendEmailViaGmail(string emailFrom, string password, string emailTo, string subject, string body)
         {
@@ -18,8 +19,8 @@ public static bool SendEmailViaGmail(string emailFrom, string password, string e
                     mail.Subject = subject;
                     mail.Body = body;
                     mail.IsBodyHtml = true;
+                    
                     // Can set to false, if you are sending pure text.
-
                     //mail.Attachments.Add(new Attachment("C:\\SomeFile.txt"));
                     //mail.Attachments.Add(new Attachment("C:\\SomeZip.zip"));
 
